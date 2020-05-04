@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Publier
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Publier</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <form (ngSubmit)="postTw()">
+    <ion-item>
+      <ion-label position="floating">Pseudo :</ion-label>
+      <ion-input [(ngModel)]="tw.pseudo" name="twPseudo"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Message :</ion-label>
+      <ion-textarea [(ngModel)]="tw.message" name="twMessage" auto-grow="true"></ion-textarea>
+    </ion-item>
+    <ion-button expand="full" type="submit">Envoyer<ion-icon class="ion-padding-start" name="send-outline"></ion-icon></ion-button>
+  </form>
+</ion-content>

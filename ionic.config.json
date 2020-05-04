@@ -1,0 +1,7 @@
+{
+  "name": "FamilyTwitIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

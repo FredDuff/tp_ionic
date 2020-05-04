@@ -1,0 +1,30 @@
+ion-avatar {
+  height: 45px;
+  width: 45px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ion-note {
+  font-size: 13px;
+}
+
+p {
+  // align-self: center;
+  color: grey;
+  word-break: break-word;
+  text-align: justify;
+}
+
+ion-button {
+  font-size: 13px;
+}
